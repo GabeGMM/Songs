@@ -1,0 +1,1407 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"weird BG.jpg",320,240
+Sprite,Background,Centre,"SB\red.png",320,240
+ F,0,104753,105167,0,0.12
+ F,0,362291,,0.12
+Animation,Background,Centre,"SB\Animations\Flash\flash.png",320,240,4,50,LoopForever
+ F,0,164763,166418,0,0.05
+ F,0,171384,173039,0.2,0.05
+ F,0,174694,176349,0.2,0.05
+ F,0,178004,179659,0.2,0.05
+ F,0,181315,182970,0.2,0.05
+ F,0,184625,185039,0.05,0
+ M,0,238602,,320,239.4148
+Animation,Background,Centre,"SB\Animations\Flash\flash.png",320,240,4,50,LoopForever
+ F,0,209969,,0
+ T,HitSound,209970,210944
+  F,0,0,155,0.1,0
+Sprite,Background,Centre,"SB\red.png",320,240
+ F,0,396875,396978,0,0.12
+ F,0,420047,,0.12
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Animation,Foreground,TopCentre,"SB\Animations\Bell\bell.png",320,-30,4,200,LoopForever
+ L,-598,6
+  R,11,0,2437,0.4,-0.4
+  R,11,2437,4874,-0.4,0.4
+ S,0,620,,0.9
+ F,0,620,1229,0,1
+ F,0,27416,28657,1,0
+Sprite,Foreground,Centre,"SB\lore.png",320,240
+ M,0,35645,54419,320,460,320,18
+ F,0,36958,,1
+ F,0,53211,54419,1,0
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,54821,55224,0,1
+ F,0,55627,,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopOnce
+ F,0,55628,56030,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,56030,90605,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",90,290,4,200,LoopForever
+ S,0,63816,,0.7
+ R,0,63816,,-0.15
+ F,0,63816,65927,0,1
+ F,0,90605,,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",550,290,4,200,LoopForever
+ S,0,66587,,0.6
+ R,0,66587,,0.15
+ F,0,66587,68698,0,1
+ F,0,90605,,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,64872,,-0.1
+ S,0,64872,65135,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth2.png",140,170
+ R,0,65136,,-0.1
+ S,0,65136,65267,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,65268,,-0.1
+ S,0,65268,65531,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth0.png",140,170
+ R,0,65532,,-0.1
+ S,0,65532,65794,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,65795,,-0.1
+ S,0,65795,66058,0.5
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",140,170,4,200,LoopForever
+ R,0,66059,,-0.1
+ S,0,66059,66587,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",495,170,4,200,LoopForever
+ R,0,68039,,0.1
+ S,0,68039,68302,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth2.png",495,170
+ R,0,68303,,0.1
+ S,0,68303,68434,0.5
+Sprite,Foreground,Centre,"SB\Animations\Teethies\t_mouth3.png",495,170
+ R,0,68435,,0.1
+ S,0,68435,68566,0.5
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",495,170,4,200,LoopForever
+ R,0,68567,,0.1
+ S,0,68567,68962,0.5
+Sprite,Foreground,Centre,"SB\Animations\Teethies\t_mouth3.png",495,170
+ R,0,68963,,0.1
+ S,0,68963,69160,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",495,170,4,200,LoopForever
+ R,0,69161,,0.1
+ S,0,69161,69490,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,69491,,-0.1
+ S,0,69491,69754,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth0.png",140,170
+ R,0,69755,,-0.1
+ S,0,69755,69886,0.5
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",140,170,4,200,LoopForever
+ R,0,69887,,-0.1
+ S,0,69887,70150,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth1.png",140,170
+ R,0,70151,,-0.1
+ S,0,70151,70414,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,70415,,-0.1
+ S,0,70415,70810,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",495,170,4,200,LoopForever
+ R,0,71074,,0.1
+ S,0,71074,71271,0.5
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",495,170,4,200,LoopForever
+ R,0,71272,,0.1
+ S,0,71272,71469,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth2.png",495,170
+ R,0,71470,,0.1
+ S,0,71470,71601,0.5
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",495,170,4,200,LoopForever
+ R,0,71602,,0.1
+ S,0,71602,71865,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",495,170,4,200,LoopForever
+ R,0,71866,,0.1
+ S,0,71866,72261,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth2.png",495,170
+ R,0,72262,,0.1
+ S,0,72262,72394,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,72922,,-0.1
+ S,0,72922,73317,0.5
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth1.png",140,170
+ R,0,73318,,-0.1
+ S,0,73318,73449,0.5
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",140,170,4,200,LoopForever
+ R,0,73450,,-0.1
+ S,0,73450,73713,0.5
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",140,170,4,200,LoopForever
+ R,0,73714,,-0.1
+ S,0,73714,73977,0.5
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",140,170,4,200,LoopForever
+ R,0,73978,,-0.1
+ S,0,73978,74241,0.5
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",140,170,4,200,LoopForever
+ R,0,74242,,-0.1
+ S,0,74242,74506,0.5
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,90606,91001,1
+Sprite,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen3.png",320,240
+ F,0,91002,91133,1
+Sprite,Foreground,Centre,"SB\Animations\MouthClosed\mouth2.png",320,240
+ F,0,91134,91265,1
+Sprite,Foreground,Centre,"SB\Animations\HalfOpen\half3.png",320,240
+ F,0,91266,91397,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,91398,91925,1
+Animation,Foreground,Centre,"SB\Animations\Vore\vore.png",320,240,4,200,LoopForever
+ L,91926,31
+  S,0,0,413,0,4
+  R,0,0,413,0,-3
+Animation,Foreground,Centre,"SB\Animations\Vore\vore.png",320,240,4,200,LoopForever
+ L,92132,31
+  S,0,0,413,0,4
+  R,0,0,413,0,-3
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Yasra.png",255,390
+ S,0,11567,,0.7
+ F,0,11567,12770,0,1
+ F,0,18850,20058,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\manaf.png",375,394
+ S,0,13985,,0.7
+ F,0,13985,15226,0,1
+ F,0,18850,20058,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\innna.png",240,400
+ S,0,21276,,0.7
+ F,0,21276,22500,0,1
+ F,0,29898,31140,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Ar ciel.png",374,396
+ S,0,23692,,0.7
+ F,0,23692,24933,0,1
+ F,0,29898,31140,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",450,401
+ S,0,23692,,0.7
+ F,0,23692,24933,0,1
+ F,0,29898,31140,1,0
+Sprite,Foreground,Centre,"SB\Hori Blur Glow.png",320,396
+ C,0,45497,,0,0,0
+ F,0,45497,45914,0,1
+ F,0,53613,54016,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Fou.png",169,391
+ S,0,45914,53613,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\reveris.png",299,396
+ F,0,46324,,1
+ F,0,48379,,0
+ F,0,48781,,1
+ F,0,50795,,0
+ F,0,51197,,1
+ S,0,53613,,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\rifarien.png",456,396
+ F,0,47146,,1
+ F,0,48379,,0
+ F,0,49587,,1
+ F,0,50795,,0
+ F,0,52003,,1
+ S,0,53613,,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",527,401
+ F,0,47146,,1
+ F,0,48379,,0
+ F,0,49587,,1
+ F,0,50795,,0
+ F,0,52003,,1
+ S,0,53613,,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Rrha.png",230,390
+ S,0,56030,,0.7
+ F,0,56030,58141,0,1
+ F,0,85591,87703,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\num.png",320,390
+ S,0,63816,,0.7
+ F,0,63816,65927,0,1
+ F,0,85591,87703,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\wa.png",390,395
+ S,0,66587,,0.7
+ F,0,66587,68698,0,1
+ F,0,85591,87703,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",417,401
+ S,0,66587,,0.7
+ F,0,66587,68698,0,1
+ F,0,85591,87703,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",427,401
+ S,0,66587,,0.7
+ F,0,66587,68698,0,1
+ F,0,85591,87703,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",437,401
+ S,0,66587,,0.7
+ F,0,66587,68698,0,1
+ F,0,85591,87703,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Rrha.png",230,95
+ S,0,64872,66587,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\num.png",320,95
+ S,0,65268,66587,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\ra.png",390,95
+ S,0,65795,66587,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",415,105
+ S,0,65795,66587,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",425,105
+ S,0,65795,66587,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",435,105
+ S,0,65795,66587,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Rrha.png",210,95
+ S,0,68039,69490,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\yant.png",320,98
+ S,0,68435,69490,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\ga.png",402,101
+ S,0,69095,69490,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",436,105
+ S,0,69095,69490,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",446,105
+ S,0,69095,69490,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",456,105
+ S,0,69095,69490,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Ma.png",270,100
+ S,0,69491,70810,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\i.png",320,110
+ S,0,69887,70810,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\ga.png",368,101
+ S,0,70415,70810,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",402,105
+ S,0,70415,70810,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",412,105
+ S,0,70415,70810,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",422,105
+ S,0,70415,70810,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Was.png",240,100
+ S,0,71074,72394,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\ki.png",320,110
+ S,0,71602,72394,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\ga.png",382,101
+ S,0,71866,72394,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",416,105
+ S,0,71866,72394,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",426,105
+ S,0,71866,72394,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",436,105
+ S,0,71866,72394,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Rrha.png",210,95
+ S,0,72922,74506,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\paks.png",320,100
+ S,0,73450,74506,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\ga.png",402,101
+ S,0,73978,74506,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",436,105
+ S,0,73978,74506,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",446,105
+ S,0,73978,74506,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",456,105
+ S,0,73978,74506,0.7
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\DOPLE.png",320,391
+ S,0,91002,91925,0.7
+Sprite,Foreground,Centre,"SB\Hori Blur Glow.png",320,240
+ V,0,32381,,0.1,0.9
+ F,0,32381,32433,0,0.35
+ F,0,32433,32459,0.35,0
+ F,0,32459,32510,0,0.89
+ F,0,32510,32562,0.89,0
+ F,0,32562,32588,0,0.37
+ F,0,32588,32614,0.37,0
+ F,0,32614,32692,0
+ F,0,32692,32717,0,0.48
+ F,0,32717,32743,0.48,0
+ F,0,33209,33416,0,1
+ V,7,33209,33623,0.1,0.9,1.12,1.1
+ F,0,33467,33493,1,0
+ F,0,33493,33545,0,1
+ F,0,33545,33571,1,0
+ F,0,33571,33597,0,1
+ V,6,33623,35278,1.12,1.1,15,20
+ F,0,35645,35809,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\004d.png",320,240
+ L,105167,8
+  M,0,0,,161,223
+  M,0,103,,162,224
+  M,0,206,,161,225
+  M,0,309,,160,223
+ R,0,105167,107650,0.035,-0.11
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0069.png",320,240
+ L,105167,8
+  M,0,0,,188,237
+  M,0,103,,187,236
+  M,0,206,,186,238
+  M,0,309,,189,237
+ R,0,105167,107650,0.046,-0.011
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0074.png",320,240
+ L,105167,8
+  M,0,0,,209,233
+  M,0,103,,208,234
+  M,0,206,,210,232
+  M,0,309,,210,235
+ R,0,105167,107650,-0.082,-0.012
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006f.png",320,240
+ L,105167,8
+  M,0,0,,236,238
+  M,0,103,,236,237
+  M,0,206,,237,238
+  M,0,309,,235,237
+ R,0,105167,107650,0.12,0.066
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0073.png",320,240
+ L,105167,8
+  M,0,0,,264,236
+  M,0,103,,265,235
+  M,0,206,,264,235
+  M,0,309,,265,237
+ R,0,105167,107650,-0.068,0.046
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0065.png",320,240
+ L,105167,8
+  M,0,0,,293,241
+  M,0,103,,294,240
+  M,0,206,,292,241
+  M,0,309,,294,242
+ R,0,105167,107650,0.082,-0.105
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\004e.png",320,240
+ L,105167,8
+  M,0,0,,354,231
+  M,0,103,,353,230
+  M,0,206,,354,231
+  M,0,309,,355,230
+ R,0,105167,107650,0.082,-0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006f.png",320,240
+ L,105167,8
+  M,0,0,,387,241
+  M,0,103,,386,243
+  M,0,206,,388,242
+  M,0,309,,386,240
+ R,0,105167,107650,-0.046,0.175
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0072.png",320,240
+ L,105167,8
+  M,0,0,,414,237
+  M,0,103,,413,236
+  M,0,206,,414,236
+  M,0,309,,415,237
+ R,0,105167,107650,-0.093,0.023
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0069.png",320,240
+ L,105167,8
+  M,0,0,,431,235
+  M,0,103,,430,234
+  M,0,206,,431,236
+  M,0,309,,431,234
+ R,0,105167,107650,0.07,-0.023
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006b.png",320,240
+ L,105167,8
+  M,0,0,,452,235
+  M,0,103,,451,234
+  M,0,206,,452,236
+  M,0,309,,453,235
+ R,0,105167,107650,0.058,-0.081
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006f.png",320,240
+ L,105167,8
+  M,0,0,,481,235
+  M,0,103,,483,232
+  M,0,206,,481,235
+  M,0,309,,480,234
+ R,0,105167,107650,-0.105,0.093
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0058.png",320,240
+ L,108477,8
+  M,0,0,,250,236
+  M,0,103,,248,236
+  M,0,206,,249,235
+  M,0,309,,251,237
+ R,0,108477,110960,0.046,-0.023
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0061.png",320,240
+ L,108477,8
+  M,0,0,,283,247
+  M,0,103,,284,246
+  M,0,206,,282,245
+  M,0,309,,282,246
+ R,0,108477,110960,0.093,-0.058
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0061.png",320,240
+ L,108477,8
+  M,0,0,,314,245
+  M,0,103,,315,245
+  M,0,206,,314,244
+  M,0,309,,313,245
+ R,0,108477,110960,-0.071,0.058
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0061.png",320,240
+ L,108477,8
+  M,0,0,,347,247
+  M,0,103,,347,245
+  M,0,206,,346,246
+  M,0,309,,347,244
+ R,0,108477,110960,-0.035,0.071
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0043.png",320,240
+ L,108477,8
+  M,0,0,,381,240
+  M,0,103,,381,239
+  M,0,206,,380,240
+  M,0,309,,381,240
+ R,0,108477,110960,-0.059,0.117
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0069.png",320,240
+ L,108477,8
+  M,0,0,,407,241
+  M,0,103,,407,240
+  M,0,206,,407,241
+  M,0,309,,408,241
+ R,0,108477,110960,0.046,-0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\002e.png",320,240
+ L,108477,8
+  M,0,0,,420,256
+  M,0,103,,422,256
+  M,0,206,,420,256
+  M,0,309,,421,255
+ R,0,108477,110960,-0.14,0.093
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\004d.png",320,240
+ L,111788,8
+  M,0,0,,209,198
+  M,0,103,,210,199
+  M,0,206,,209,198
+  M,0,309,,210,198
+ R,0,111788,114270,0.082,-0.071
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0061.png",320,240
+ L,111788,8
+  M,0,0,,245,203
+  M,0,103,,246,204
+  M,0,206,,244,204
+  M,0,309,,245,202
+ M,0,111788,,245.3463,203.7211
+ R,0,111788,114270,0.105,-0.025
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0070.png",320,240
+ L,111788,8
+  M,0,0,,275,209
+  M,0,103,,276,210
+  M,0,206,,275,210
+  M,0,309,,276,208
+ R,0,111788,114270,-0.187,0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0073.png",320,240
+ L,111788,8
+  M,0,0,,304,205
+  M,0,103,,305,206
+  M,0,206,,304,205
+  M,0,309,,303,204
+ R,0,111788,114270,-0.105,0.105
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0065.png",320,240
+ L,111788,8
+  M,0,0,,336,206
+  M,0,103,,337,204
+  M,0,206,,336,205
+  M,0,309,,337,206
+ R,0,111788,114270,0.105,-0.047
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0074.png",320,240
+ L,111788,8
+  M,0,0,,360,203
+  M,0,103,,360,204
+  M,0,206,,359,202
+  M,0,309,,361,202
+ R,0,111788,114270,-0.152,0.161
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0062.png",320,240
+ L,111788,8
+  M,0,0,,430,201
+  M,0,103,,429,201
+  M,0,206,,429,202
+  M,0,309,,430,202
+ R,0,111788,114270,-0.234,0.105
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0079.png",320,240
+ L,111788,8
+  M,0,0,,460,210
+  M,0,103,,460,211
+  M,0,206,,461,210
+  M,0,309,,460,209
+ R,0,111788,114270,0.071,0.176
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0048.png",320,240
+ L,111788,8
+  M,0,0,,229,284
+  M,0,103,,229,283
+  M,0,206,,228,284
+  M,0,309,,230,283
+ R,0,111788,114270,-0.117,0.094
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0065.png",320,240
+ L,111788,8
+  M,0,0,,266,289
+  M,0,103,,267,288
+  M,0,206,,265,289
+  M,0,309,,267,290
+ R,0,111788,114270,0.117,-0.105
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0079.png",320,240
+ L,111788,8
+  M,0,0,,294,292
+  M,0,103,,294,293
+  M,0,206,,295,292
+  M,0,309,,295,293
+ R,0,111788,114270,-0.059,0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006c.png",320,240
+ L,111788,8
+  M,0,0,,338,283
+  M,0,103,,337,282
+  M,0,206,,338,284
+  M,0,309,,338,283
+ R,0,111788,114270,-0.105,0.129
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0075.png",320,240
+ L,111788,8
+  M,0,0,,358,289
+  M,0,103,,358,288
+  M,0,206,,359,288
+  M,0,309,,357,289
+ R,0,111788,114270,0.129,-0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006c.png",320,240
+ L,111788,8
+  M,0,0,,378,279
+  M,0,103,,379,280
+  M,0,206,,377,279
+  M,0,309,,378,280
+ R,0,111788,114270,0.047,-0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0075.png",320,240
+ L,111788,8
+  M,0,0,,398,290
+  M,0,103,,397,289
+  M,0,206,,399,291
+  M,0,309,,399,290
+ R,0,111788,114270,0.105,-0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006c.png",320,240
+ L,111788,8
+  M,0,0,,418,282
+  M,0,103,,417,283
+  M,0,206,,418,283
+  M,0,309,,418,281
+ R,0,111788,114270,-0.07,0.068
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0075.png",320,240
+ L,111788,8
+  M,0,0,,438,289
+  M,0,103,,437,290
+  M,0,206,,438,288
+  M,0,309,,437,289
+ R,0,111788,114270,0.047,-0.105
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0053.png",320,240
+ L,115098,8
+  M,0,0,,152,196
+  M,0,103,,151,195
+  M,0,206,,151,196
+  M,0,309,,152,194
+ R,0,115098,117581,0.141,-0.176
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0074.png",320,240
+ L,115098,8
+  M,0,0,,181,192
+  M,0,103,,181,193
+  M,0,206,,182,192
+  M,0,309,,180,191
+ R,0,115098,117581,-0.141,0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006f.png",320,240
+ L,115098,8
+  M,0,0,,204,200
+  M,0,103,,205,201
+  M,0,206,,205,200
+  M,0,309,,204,201
+ R,0,115098,117581,0.082,-0.129
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0072.png",320,240
+ L,115098,8
+  M,0,0,,229,201
+  M,0,103,,229,200
+  M,0,206,,230,201
+  M,0,309,,228,202
+ R,0,115098,117581,0.094,-0.152
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0079.png",320,240
+ L,115098,8
+  M,0,0,,252,209
+  M,0,103,,253,210
+  M,0,206,,252,209
+  M,0,309,,252,210
+ R,0,115098,117581,0.082,-0.105
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0062.png",320,240
+ L,115098,8
+  M,0,0,,280,194
+  M,0,103,,280,195
+  M,0,206,,281,195
+  M,0,309,,281,194
+ R,0,115098,117581,-0.082,0.07
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006f.png",320,240
+ L,115098,8
+  M,0,0,,309,205
+  M,0,103,,308,205
+  M,0,206,,309,204
+  M,0,309,,309,206
+ R,0,115098,117581,-0.094,0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0061.png",320,240
+ L,115098,8
+  M,0,0,,338,200
+  M,0,103,,337,199
+  M,0,206,,338,201
+  M,0,309,,339,201
+ R,0,115098,117581,0.14,-0.035
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0072.png",320,240
+ L,115098,8
+  M,0,0,,364,204
+  M,0,103,,365,205
+  M,0,206,,364,204
+  M,0,309,,363,204
+ R,0,115098,117581,0.023,-0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0064.png",320,240
+ L,115098,8
+  M,0,0,,389,202
+  M,0,103,,390,202
+  M,0,206,,389,203
+  M,0,309,,389,201
+ R,0,115098,117581,0.143,-0.012
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0062.png",320,240
+ L,115098,8
+  M,0,0,,463,198
+  M,0,103,,464,199
+  M,0,206,,463,198
+  M,0,309,,462,199
+ R,0,115098,117581,0.047,-0.15
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0079.png",320,240
+ L,115098,8
+  M,0,0,,493,208
+  M,0,103,,494,207
+  M,0,206,,492,209
+  M,0,309,,494,208
+ R,0,115098,117581,-0.146,-0.035
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0054.png",320,240
+ L,115098,8
+  M,0,0,,169,281
+  M,0,103,,169,282
+  M,0,206,,168,281
+  M,0,309,,170,280
+ R,0,115098,117581,0.059,-0.07
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0068.png",320,240
+ L,115098,8
+  M,0,0,,200,283
+  M,0,103,,199,282
+  M,0,206,,199,284
+  M,0,309,,201,283
+ R,0,115098,117581,-0.059,0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0065.png",320,240
+ L,115098,8
+  M,0,0,,230,286
+  M,0,103,,231,285
+  M,0,206,,230,286
+  M,0,309,,230,285
+ R,0,115098,117581,0.129,-0.082
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0044.png",320,240
+ L,115098,8
+  M,0,0,,265,280
+  M,0,103,,264,281
+  M,0,206,,265,279
+  M,0,309,,266,280
+ R,0,115098,117581,-0.152,-0.012
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0075.png",320,240
+ L,115098,8
+  M,0,0,,295,290
+  M,0,103,,296,291
+  M,0,206,,295,291
+  M,0,309,,296,290
+ R,0,115098,117581,0.059,-0.117
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0063.png",320,240
+ L,115098,8
+  M,0,0,,322,287
+  M,0,103,,323,287
+  M,0,206,,323,288
+  M,0,309,,322,287
+ R,0,115098,117581,0.07,-0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006b.png",320,240
+ L,115098,8
+  M,0,0,,350,283
+  M,0,103,,351,282
+  M,0,206,,350,284
+  M,0,309,,350,282
+ R,0,115098,117581,0.082,-0.059
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\004d.png",320,240
+ L,115098,8
+  M,0,0,,383,283
+  M,0,103,,382,284
+  M,0,206,,383,284
+  M,0,309,,384,282
+ R,0,115098,117581,-0.077,0.023
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0061.png",320,240
+ L,115098,8
+  M,0,0,,418,290
+  M,0,103,,419,290
+  M,0,206,,418,291
+  M,0,309,,417,290
+ R,0,115098,117581,0.076,-0.047
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\0073.png",320,240
+ L,115098,8
+  M,0,0,,446,293
+  M,0,103,,445,292
+  M,0,206,,446,292
+  M,0,309,,447,293
+ R,0,115098,117581,-0.083,-0.012
+Sprite,Foreground,Centre,"SB\Lyrics\Credits\006b.png",320,240
+ L,115098,8
+  M,0,0,,472,285
+  M,0,103,,473,285
+  M,0,206,,473,284
+  M,0,309,,472,283
+ R,0,115098,117581,-0.075,0.094
+Animation,Foreground,Centre,"SB\Animations\Eye\eye.png",460,180,4,50,LoopForever
+ F,0,118418,,1
+ V,7,118418,118832,1,0,1,1
+ F,0,125039,,0
+ F,0,126694,,1
+ F,0,130004,,0
+ F,0,131091,,1
+ F,0,131194,,0
+Animation,Foreground,Centre,"SB\Animations\EyeLeft\eyeL.png",460,180,4,50,LoopForever
+ F,0,125039,,1
+ V,7,125039,125453,1,0,1,1
+ F,0,126694,,0
+ F,0,130832,,1
+ F,0,131039,,0
+Animation,Foreground,Centre,"SB\Animations\EyeRight\eyeR.png",460,180,4,50,LoopForever
+ F,0,130004,,1
+ F,0,130418,,0
+ F,0,131039,,1
+ F,0,131091,,0
+Animation,Foreground,Centre,"SB\Animations\EyeUp\eyeU.png",460,180,4,50,LoopForever
+ F,0,130418,,1
+ F,0,130832,,0
+ F,0,131194,,1
+ V,6,131246,131660,1,1,1,0
+ F,0,131660,,0
+Animation,Foreground,Centre,"SB\Animations\Eye\eye.png",180,180,4,50,LoopForever
+ F,0,118418,,1
+ P,0,118418,,H
+ V,7,118418,118832,1,0,1,1
+ F,0,125039,,0
+ F,0,126694,,1
+ F,0,130004,,0
+ F,0,131091,,1
+ F,0,131194,,0
+Animation,Foreground,Centre,"SB\Animations\EyeRight\eyeR.png",180,180,4,50,LoopForever
+ F,0,125039,,1
+ P,0,125039,,H
+ V,7,125039,125453,1,0,1,1
+ F,0,126694,,0
+ F,0,130832,,1
+ F,0,131039,,0
+Animation,Foreground,Centre,"SB\Animations\EyeLeft\eyeL.png",180,180,4,50,LoopForever
+ F,0,130004,,1
+ P,0,130004,,H
+ F,0,130418,,0
+ F,0,131039,,1
+ F,0,131091,,0
+Animation,Foreground,Centre,"SB\Animations\EyeUp\eyeU.png",180,180,4,50,LoopForever
+ F,0,130418,,1
+ P,0,130418,,H
+ F,0,130832,,0
+ F,0,131194,,1
+ V,6,131246,131660,1,1,1,0
+ F,0,131660,,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,118418,,0.6
+ F,0,118418,118618,0,1
+ M,0,118418,126418,747,387,-107,387
+ R,0,122129,,-0.4
+ F,0,126218,126418,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,119418,,0.8
+ R,0,119418,,0.2
+ F,0,119418,119618,0,1
+ M,0,119418,127418,747,291,-107,291
+ F,0,127218,127418,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,120418,,0.5
+ R,0,120418,,-0.04
+ F,0,120418,120618,0,1
+ M,0,120418,128418,747,395,-107,395
+ F,0,128218,128418,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,121418,,0.65
+ R,0,121418,,-1
+ F,0,121418,121618,0,1
+ M,0,121418,129418,747,356,-107,356
+ F,0,129218,129418,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,122418,,0.6
+ R,0,122418,,0.55
+ F,0,122418,122618,0,1
+ M,0,122418,130418,747,289,-107,289
+ F,0,130218,130418,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,123418,,0.4
+ R,0,123418,,0.11
+ F,0,123418,123618,0,1
+ M,0,123418,131418,747,363,-107,363
+ F,0,131218,131418,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,124884,,0.8
+ R,0,124884,,-0.3
+ F,0,124884,125084,0,1
+ M,0,124884,132884,747,370,-107,370
+ F,0,131460,131660,1,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ S,0,126280,,0.6
+ R,0,126280,,0.22
+ F,0,126280,126480,0,1
+ M,0,126280,134280,747,300,-107,300
+ F,0,131460,131660,1,0
+Animation,Foreground,TopCentre,"SB\Animations\HandPalm\handP.png",320,240,4,200,LoopForever
+ S,0,131660,,0.7
+ M,7,131660,132487,170,480,170,240
+ R,0,131660,144901,0,3.14
+ M,0,132487,144073,170,240,170,260
+ M,6,144073,144901,170,260,170,0
+Animation,Foreground,TopCentre,"SB\Animations\HandPalm\handP.png",320,240,4,200,LoopForever
+ S,0,131660,,0.7
+ M,7,131660,132487,470,0,470,260
+ R,0,131660,144901,-3.14,0
+ M,0,132487,144073,470,260,470,240
+ M,6,144073,144901,470,240,470,480
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,131660,132072,0,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,132073,132279,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,132280,132693,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,132694,132797,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,132798,132900,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,132901,133314,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,133315,133469,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,133470,133728,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,133729,133831,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,133832,134141,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,134142,134400,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,134401,134555,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,134556,134762,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,134763,134866,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,134867,134969,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,134970,135383,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,135384,135538,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,135539,136003,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,136004,136210,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,136211,136624,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,136625,136831,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,136832,137090,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,137091,137245,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,137246,137452,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,137453,137762,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,137763,137866,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,137867,138021,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,138022,138176,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,138177,138279,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,138280,138745,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,138746,138797,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,138798,138848,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,138849,139417,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,139418,139521,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,139522,139935,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,139936,140038,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,140039,140141,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,140142,140348,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,140349,140503,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,140504,140762,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,140763,141021,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,141022,141072,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,141073,141279,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,141280,141486,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,141487,141641,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,141642,143452,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,143453,143659,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,143660,144072,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,144073,144124,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,144125,144279,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,144280,144486,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,144487,144900,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,144901,145366,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,145367,145521,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,145522,145986,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,145987,146090,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,146091,146193,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,146194,146607,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,146608,146710,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,146711,146969,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,146970,147072,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,147073,147279,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,147280,147383,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,148211,148624,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,148625,148831,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,148832,149245,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,149246,149452,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,149453,149866,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,149867,150072,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,150073,150279,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,150280,150383,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,150384,150486,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,150487,150693,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,151522,151935,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,151936,152141,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,152142,152555,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,152556,152762,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,152763,152969,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,152970,153176,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,153177,153383,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,153384,153590,1
+Animation,Foreground,Centre,"SB\Animations\MouthClosed\mouth.png",320,240,4,200,LoopForever
+ F,0,153591,153693,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,153694,153797,1
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,240,4,200,LoopForever
+ F,0,153798,153900,1
+Animation,Foreground,Centre,"SB\Animations\HalfOpen\half.png",320,240,4,200,LoopForever
+ F,0,153901,154003,1
+Animation,Foreground,Centre,"SB\Animations\MouthOpen\mouthopen.png",320,240,4,200,LoopForever
+ F,0,154832,157314,1
+Animation,Foreground,Centre,"SB\Animations\HandClap\handC.png",320,240,4,200,LoopForever
+ R,0,144901,,0.3
+ M,7,144901,145729,490,680,490,320
+ M,0,147384,,390,310
+ R,0,147384,,-0.15
+ M,0,148211,,490,320
+ R,0,148211,,0.3
+ M,0,150694,,390,310
+ R,0,150694,,-0.15
+ M,0,151522,,490,320
+ R,0,151522,,0.3
+ M,0,154004,,390,310
+ R,0,154004,,-0.15
+ M,0,154832,,490,320
+ R,0,154832,,0.3
+ R,0,157315,,-0.15
+ M,6,157315,158142,390,310,390,680
+Animation,Foreground,Centre,"SB\Animations\HandClap\handC.png",320,240,4,200,LoopForever
+ R,0,144901,,-0.3
+ P,0,144901,,H
+ M,7,144901,145729,150,680,150,320
+ M,0,147384,,250,310
+ R,0,147384,,0.15
+ M,0,148211,,150,320
+ R,0,148211,,-0.3
+ M,0,150694,,250,310
+ R,0,150694,,0.15
+ M,0,151522,,150,320
+ R,0,151522,,-0.3
+ M,0,154004,,250,310
+ R,0,154004,,0.15
+ M,0,154832,,150,320
+ R,0,154832,,-0.3
+ R,0,157315,,0.15
+ M,6,157315,158142,250,310,250,680
+Sprite,Foreground,Centre,"SB\splatter.png",320,265
+ F,0,147384,,1
+ S,0,147384,,0.65
+ F,0,148211,,0
+ F,0,150694,,1
+ F,0,151521,,0
+ F,0,154004,,1
+ F,0,154831,,0
+ F,0,157315,,1
+ M,6,157315,158142,320,265,320,680
+ F,0,158142,,0
+Animation,Foreground,BottomCentre,"SB\Animations\Church\church.png",320,240,4,200,LoopForever
+ M,7,158142,159384,320,840,320,480
+ M,6,210013,211099,320,480,265,1260
+ F,0,210013,211099,1,0
+ S,6,210013,211099,0.7,5
+Animation,Foreground,Centre,"SB\Animations\Eye\eye.png",500,160,4,50,LoopForever
+ F,7,161453,162280,0,1
+ V,7,161453,162280,1,0,1,1
+ F,0,209866,,1
+Animation,Foreground,Centre,"SB\Animations\Eye\eye.png",150,160,4,50,LoopForever
+ P,0,161453,,H
+ F,7,161453,162280,0,1
+ V,7,161453,162280,1,0,1,1
+ F,0,209866,,1
+Animation,Foreground,Centre,"SB\Animations\EyeUp\eyeU.png",500,160,4,50,LoopForever
+ V,0,209867,,1,1
+ F,0,210013,210840,1,0
+ V,7,210013,210840,1,1,1,0
+Animation,Foreground,Centre,"SB\Animations\EyeUp\eyeU.png",150,160,4,50,LoopForever
+ P,0,209867,,H
+ V,0,209867,,1,1
+ F,0,210013,210840,1,0
+ V,7,210013,210840,1,1,1,0
+Animation,Foreground,BottomCentre,"SB\Animations\HandClap\handC.png",520,470,4,50,LoopForever
+ F,0,197867,209453,0,1
+ R,0,197867,209453,0.95,0.25
+ S,0,209453,,0.75
+ F,0,210013,210840,1,0
+ R,6,210013,210840,0.25,0.95
+Animation,Foreground,BottomCentre,"SB\Animations\HandClap\handC.png",130,470,4,50,LoopForever
+ P,0,197867,,H
+ F,0,197867,209453,0,1
+ R,0,197867,209453,-0.95,-0.25
+ S,0,209453,,0.75
+ F,0,210013,210840,1,0
+ R,6,210013,210840,-0.25,-0.95
+Animation,Foreground,TopCentre,"SB\Animations\Bell\bell.png",320,-30,4,200,LoopForever
+ L,209453,6
+  R,11,0,3272,0.4,-0.4
+  R,11,3272,6544,-0.4,0.4
+ S,0,211101,,0.9
+ F,0,211101,211710,0,1
+ F,0,237897,239138,1,0
+Animation,Foreground,Centre,"SB\Animations\Swirl\swirl.png",320,240,7,160,LoopOnce
+ M,0,238458,239634,320,240
+Animation,Foreground,Centre,"SB\Animations\Circle\circ.png",320,240,4,200,LoopForever
+ F,0,239633,239634,0,1
+ M,0,239634,,320,240
+ S,0,239634,258458,1
+ F,7,258458,259046,1,0
+ S,7,258458,259046,1,0.1
+ M,0,259046,,80,140
+ F,7,259046,259634,0,1
+ S,7,259046,259634,0.1,0.4
+ F,0,305517,305811,1,0
+ S,7,305517,305811,0.4,0.6
+ S,0,305812,,1.2
+ F,0,306105,,1
+ M,7,306105,306987,320,-100,320,0
+ F,0,362291,,0
+ T,HitSoundFinish,290737,304929
+  S,7,0,294,0.4,0.5
+  S,6,294,588,0.5,0.4
+ T,HitSoundFinish,310076,358017
+  S,7,0,294,1.2,1.3
+  S,6,294,588,1.3,1.2
+Animation,Foreground,Centre,"SB\Animations\triRays\triR.png",320,240,4,200,LoopForever
+ M,0,244340,,320,240
+ F,0,244340,245517,0,1
+ S,7,244340,245517,0.5,1
+ R,3,257723,259046,0,-2
+ F,7,258458,259046,1,0
+ S,7,258458,259046,1,1.2
+ M,0,259046,,80,140
+ F,7,259046,259634,0,1
+ S,7,259046,259634,0.5,0.4
+ R,4,259046,259634,-1,-0.5
+ R,0,259634,272576,-0.5,0.25
+ R,4,272576,273164,0.25,-0.4
+ R,4,273164,273752,-0.4,0.25
+ R,0,273752,277282,0.25,0.6
+ R,7,277282,279046,0.6,2.6
+ R,6,279046,281399,2.6,3.1
+ R,4,281399,281987,3.1,2.4
+ R,4,281987,282576,2.4,3.1
+ R,0,282576,286693,3.1,3.5
+ F,7,286693,287282,1,0
+ S,7,286693,287282,0.4,0.5
+ R,7,286693,287282,3.5,4.5
+Animation,Foreground,Centre,"SB\Animations\triRays\triR.png",320,240,4,200,LoopForever
+ M,0,249046,,320,240
+ F,0,249046,250223,0,1
+ S,7,249046,250223,0.5,1.2
+ R,0,250223,,-0.35
+ F,7,257576,258164,1,0
+ S,7,257576,258164,1.2,1.4
+ M,0,263164,,80,140
+ F,7,263164,263752,0,1
+ S,7,263164,263752,0.7,0.6
+ R,4,263164,263752,-0.4,0.1
+ R,4,263752,264340,0.1,-0.6
+ R,0,264340,272576,-0.6,-1
+ R,4,272576,273164,-1,-0.5
+ R,4,273164,273752,-0.5,-1
+ R,0,273752,277282,-1,-1.1
+ R,7,277282,279046,-1.1,-2.5
+ R,6,279046,281399,-2.5,-3
+ R,4,281399,281987,-3,-2.5
+ R,4,281987,282576,-2.5,-3
+ R,0,282576,286693,-3,-3.4
+ F,7,286693,287282,1,0
+ S,7,286693,287282,0.6,0.7
+ R,7,286693,287282,-3.4,-4.4
+Animation,Foreground,Centre,"SB\Animations\triRays\triR.png",320,240,4,200,LoopForever
+ M,0,253752,,320,240
+ F,0,253752,254929,0,1
+ S,7,253752,254929,0.5,1.6
+ F,7,256987,257576,1,0
+ S,7,256987,257576,1.6,1.8
+ M,0,267870,,80,140
+ F,7,267870,268458,0,1
+ S,7,267870,268458,0.9,0.8
+ R,4,267870,268458,0.1,-0.4
+ R,4,268458,269046,-0.4,0.3
+ R,0,269046,272576,0.3,0.5
+ R,4,272576,273164,0.5,0
+ R,4,273164,273752,0,0.5
+ R,0,273752,277282,0.5,0.7
+ R,7,277282,279046,0.7,2.6
+ R,6,279046,281399,2.6,3.1
+ R,4,281399,281987,3.1,2.4
+ R,4,281987,282576,2.4,3.1
+ R,0,282576,286693,3.1,3.5
+ F,7,286693,287282,1,0
+ S,7,286693,287282,0.8,0.9
+ R,7,286693,287282,3.5,4.5
+Animation,Foreground,BottomRight,"SB\Animations\ChurchP\churchP.png",320,240,4,200,LoopForever
+ M,7,260223,261987,747,910,747,480
+ M,6,304929,306105,747,480,747,910
+Animation,Foreground,Centre,"SB\Animations\CurveI\curveIn.png",81,315,4,170,LoopOnce
+ V,0,287282,288017,0.78,0.72
+Animation,Foreground,Centre,"SB\Animations\CurveI\curveIn.png",-76,104,4,170,LoopOnce
+ R,0,287282,,1.8
+ V,0,288017,,0.78,0.72
+Animation,Foreground,Centre,"SB\Animations\CurveI\curveIn.png",217,32,4,170,LoopOnce
+ R,0,287282,,4
+ V,0,288017,,0.78,0.72
+Animation,Foreground,Centre,"SB\Animations\Curve\curve.png",81,315,4,200,LoopForever
+ V,0,288018,305517,0.78,0.72
+ F,0,305517,305811,1,0
+Animation,Foreground,Centre,"SB\Animations\Curve\curve.png",-76,104,4,200,LoopForever
+ R,0,288018,,1.8
+ V,0,288018,,0.78,0.72
+ F,0,305517,305811,1,0
+Animation,Foreground,Centre,"SB\Animations\Curve\curve.png",217,32,4,200,LoopForever
+ R,0,288018,,4
+ V,0,288018,,0.78,0.72
+ F,0,305517,305811,1,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,290811,,0.4
+ F,7,290811,291105,0,0.8
+ M,7,290811,291399,95,100,110,45
+ R,7,290811,291399,0.3,0.6
+ F,6,291105,291399,0.8,0
+ S,0,291399,,0.4
+ F,7,291399,291693,0,0.8
+ M,7,291399,291987,107,155,156,192
+ R,7,291399,291987,2.25,2.6
+ F,6,291693,291987,0.8,0
+ S,0,295517,,0.4
+ F,7,295517,295811,0,0.8
+ M,7,295517,296105,46,141,-10,154
+ R,7,295517,296105,4.6,5
+ F,6,295811,296105,0.8,0
+ S,0,300223,,0.4
+ F,7,300223,300517,0,0.8
+ M,7,300223,300811,95,100,110,45
+ R,7,300223,300811,0.3,0.6
+ F,6,300517,300811,0.8,0
+ S,0,300811,,0.4
+ F,7,300811,301105,0,0.8
+ M,7,300811,301399,46,141,-10,154
+ R,7,300811,301399,4.6,5
+ F,6,301105,301399,0.8,0
+ S,0,304046,,0.4
+ F,7,304046,304340,0,0.8
+ M,7,304046,304634,107,155,156,192
+ R,7,304046,304634,2.25,2.6
+ F,6,304340,304634,0.8,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,296105,,0.4
+ P,0,296105,,H
+ F,7,296105,296399,0,0.8
+ M,7,296105,296693,95,100,129,57
+ R,7,296105,296693,0.65,0.12
+ F,6,296399,296693,0.8,0
+ S,0,304634,,0.4
+ F,7,304634,304928,0,0.8
+ M,7,304634,305222,95,100,129,57
+ R,7,304634,305222,0.65,0.12
+ F,6,304928,305222,0.8,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,310223,,0.7
+ F,7,310223,310517,0,0.8
+ M,7,310223,310811,370,45,440,130
+ R,7,310223,310811,2.35,2.7
+ F,6,310517,310811,0.8,0
+ S,0,310811,,0.7
+ F,7,310811,311105,0,0.8
+ M,7,310811,311399,291,40,161,90
+ R,7,310811,311399,3.99,4.62
+ F,6,311105,311399,0.8,0
+ S,0,315517,,0.7
+ F,7,315517,315811,0,0.8
+ M,7,315517,316105,306,50,264,163
+ R,7,315517,316105,3.41,3.7
+ F,6,315811,316105,0.8,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,314929,,0.7
+ P,0,314929,,H
+ F,7,314929,315223,0,0.8
+ M,7,314929,315517,362,36,493,72
+ R,7,314929,315517,2,1.47
+ F,6,315223,315517,0.8,0
+ S,0,319634,,0.7
+ P,0,319634,,H
+ F,7,319634,319928,0,0.8
+ M,7,319634,320222,287,37,217,144
+ R,7,319634,320222,3.9,3.29
+ F,6,319928,320222,0.8,0
+ S,0,320223,,0.7
+ P,0,320223,,H
+ F,7,320223,320517,0,0.8
+ M,7,320223,320811,362,36,493,72
+ R,7,320223,320811,2,1.47
+ F,6,320517,320811,0.8,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,324340,,0.7
+ F,7,324340,324634,0,0.8
+ M,7,324340,324928,370,45,440,130
+ R,7,324340,324928,2.35,2.7
+ F,6,324634,324928,0.8,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,324340,,0.7
+ P,0,324340,,H
+ F,7,324340,324634,0,0.8
+ M,7,324340,324928,315,34,267,162
+ R,7,324340,324928,3.6,3.23
+ F,6,324634,324928,0.8,0
+Sprite,Foreground,Centre,"SB\soul.png",320,240
+ S,0,324340,,0.7
+ F,7,324340,324634,0,0.8
+ M,7,324340,324928,291,40,161,90
+ R,7,324340,324928,3.99,4.62
+ F,6,324634,324928,0.8,0
+Animation,Foreground,Centre,"SB\Animations\Vibe\vibe.png",10,190,4,50,LoopForever
+ R,0,352576,,-0.4
+ F,0,352576,357282,0,1
+ S,0,352576,362291,0.7,0.9
+Animation,Foreground,Centre,"SB\Animations\Vibe\vibe.png",630,190,4,50,LoopForever
+ R,0,352576,,0.4
+ P,0,352576,,H
+ F,0,352576,357282,0,1
+ S,0,352576,362291,0.7,0.9
+Animation,Foreground,Centre,"SB\Animations\Eye\eye.png",430,170,4,50,LoopForever
+ F,0,324340,326105,0,1
+ V,8,324340,326105,0.7,0,0.7,0.7
+ F,0,362291,,0
+Animation,Foreground,Centre,"SB\Animations\Eye\eye.png",210,170,4,50,LoopForever
+ P,0,324340,,H
+ F,0,324340,326105,0,1
+ V,8,324340,326105,0.7,0,0.7,0.7
+ F,0,362291,,0
+Animation,Foreground,Centre,"SB\Animations\Teethies\t_mouth.png",320,275,4,50,LoopForever
+ F,7,361399,361987,0,1
+ V,7,361399,361987,1.2,0,1.2,0.7
+Sprite,Foreground,Centre,"SB\circle_100x100.png",320,275
+ C,0,361987,,0,0,0
+ S,0,361987,362291,0,10
+Animation,Foreground,Centre,"SB\Animations\Vore\vore.png",320,275,4,50,LoopForever
+ S,0,361987,362291,0,4.1
+Animation,Foreground,BottomCentre,"SB\Animations\Crowd\crowd.png",320,240,4,200,LoopForever
+ F,0,306104,306105,0,1
+ M,7,306105,306987,320,665,320,490
+ F,0,361987,362291,1,0
+ T,HitSoundWhistle,307208,361840
+  M,7,0,147,320,490,320,480
+  M,6,147,294,320,480,320,490
+Animation,Foreground,TopCentre,"SB\Animations\Bell\bell.png",320,-30,4,200,LoopForever
+ L,360811,6
+  R,11,0,2437,0.4,-0.4
+  R,11,2437,4874,-0.4,0.4
+ S,0,361987,,0.9
+ F,0,361987,362596,0,1
+ F,0,388783,390024,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Yasra.png",255,390
+ S,0,372940,,0.7
+ F,0,372940,374143,0,1
+ F,0,380223,381431,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\manaf.png",375,394
+ S,0,375352,,0.7
+ F,0,375352,376593,0,1
+ F,0,380217,381425,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\innna.png",240,400
+ S,0,382663,,0.7
+ F,0,382663,383887,0,1
+ F,0,391285,392527,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\Ar ciel.png",374,396
+ S,0,385093,,0.7
+ F,0,385093,386334,0,1
+ F,0,391299,392541,1,0
+Sprite,Foreground,Centre,"SB\Lyrics\Hymmnos Words\period.png",450,401
+ S,0,385093,,0.7
+ F,0,385093,386334,0,1
+ F,0,391299,392541,1,0
+Sprite,Foreground,Centre,"SB\blank-853x480.png",320,240
+ C,0,392931,392986,255,0,0
+Sprite,Foreground,Centre,"SB\red.png",320,240
+ F,0,393040,393095,1
+Sprite,Foreground,Centre,"SB\sis.png",320,240
+ F,0,393478,393533,1
+Sprite,Foreground,Centre,"SB\oop.png",320,240
+ F,0,393752,393807,1
+Sprite,Foreground,Centre,"SB\red.png",320,240
+ F,0,393916,393971,1
+Sprite,Foreground,Centre,"SB\blank-853x480.png",320,240
+ C,0,394354,394409,255,0,0
+Sprite,Foreground,Centre,"SB\red.png",320,240
+ F,0,395121,395176,1
+Animation,Foreground,Centre,"SB\Animations\Flash\flash.png",320,240,4,50,LoopForever
+ F,0,396818,396875,0,0.35
+ F,0,396875,396978,0.35,0.1
+ F,0,420047,,0.1
+Sprite,Foreground,Centre,"SB\blank-853x480.png",320,240
+ C,0,406806,,0,0,0
+ F,0,406806,420047,0,1
+Animation,Foreground,Centre,"SB\Animations\Border\border.png",320,240,4,200,LoopForever
+ S,7,104753,105167,1.1,0.72
+ M,0,105125,,320,241
+ S,6,157729,158556,0.72,1.2
+Animation,Foreground,Centre,"SB\Animations\Border\border.png",320,240,4,200,LoopForever
+ S,0,187936,209453,1.1,0.667
+ S,6,210013,210633,0.667,1.1
+Animation,Foreground,Centre,"SB\Animations\Border\border.png",320,240,4,200,LoopForever
+ S,0,324340,352576,1.1,0.84
+ S,6,361987,362291,0.84,1.1
+//Storyboard Layer 4 (Overlay)
+Animation,Overlay,Centre,"SB\Animations\Border\border.png",320,240,4,200,LoopForever
+ S,0,70810,87703,1.1,0.667
+ S,0,90606,,0.667
+//Storyboard Sound Samples
