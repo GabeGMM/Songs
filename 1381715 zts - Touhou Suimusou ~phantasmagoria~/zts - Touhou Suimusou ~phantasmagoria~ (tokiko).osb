@@ -1,0 +1,38 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"blurry.jpg",320,240
+ S,0,321499,,0.625
+ F,0,321499,323451,0,1
+ F,0,323451,368583,1
+Sprite,Foreground,Centre,"black.jpg",320,240
+ F,0,-9462,64080,1
+ F,0,64080,110532,1,0.75
+ F,0,125774,126015,0.75,0
+ F,0,126015,356635,0
+ F,0,356635,361384,0,1
+ F,0,361384,369694,1
+ F,0,369694,370177,1,0
+ F,0,370177,435687,0
+ S,0,435687,,0.8
+ F,0,435687,519917,0,1
+ F,0,519917,553379,1
+Sprite,Foreground,Centre,"white.jpg",320,240
+ S,0,369694,,4.5
+ F,0,369694,370177,1,0
+ F,0,370177,,0
+Sprite,Foreground,Centre,"white.jpg",320,240
+ S,0,62144,,4.5
+ F,0,62144,62628,0,0.3
+ F,0,62628,63112,0.3,0.6
+ F,0,63112,63838,0.6,1
+ F,0,63838,64080,1
+ F,0,64080,67951,1,0
+ F,0,67951,365008,0
+ F,0,365008,367746,0,1
+ F,0,367746,369694,1,0.25
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
