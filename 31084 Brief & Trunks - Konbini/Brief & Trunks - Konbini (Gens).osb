@@ -1,0 +1,895 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"bg.jpg",320,240
+ F,0,0,,0
+Sprite,Background,TopLeft,"Storyboard\Konbini-1.jpg",0,0
+ F,0,0,,1
+ F,0,470,,0
+ F,0,5530,,1
+ F,0,5840,,0
+ F,0,6156,,1
+ F,0,6472,,0
+ F,0,6787,,1
+ F,0,7103,,0
+ F,0,7419,,1
+ F,0,7734,,0
+ F,0,8050,,1
+ F,0,8365,,0
+ F,0,8681,,1
+ F,0,8997,,0
+ F,0,9312,,1
+ F,0,9628,,0
+ F,0,9944,,1
+ F,0,10259,,0
+ F,0,10575,,1
+ F,0,10890,,0
+ F,0,11206,,1
+ F,0,11522,,0
+ F,0,11837,,1
+ F,0,12153,,0
+ F,0,12469,,1
+ F,0,12784,,0
+ F,0,13100,,1
+ F,0,13415,,0
+ F,0,13731,,1
+ F,0,14047,,0
+ F,0,14362,,1
+ F,0,14678,,0
+ F,0,14994,,1
+ F,0,15309,,0
+ F,0,58865,,1
+ F,0,59181,,0
+ F,0,59496,,1
+ F,0,59812,,0
+ F,0,60128,,1
+ F,0,60443,,0
+ F,0,60759,,1
+ F,0,61075,,0
+ F,0,61390,,1
+ F,0,61706,,0
+ F,0,62021,,1
+ F,0,62337,,0
+ F,0,62653,,1
+ F,0,62968,,0
+ F,0,63284,,1
+ F,0,63599,,0
+ F,0,63915,,1
+ F,0,64231,,0
+ F,0,64546,,1
+ F,0,64862,,0
+ F,0,65178,,1
+ F,0,65493,,0
+ F,0,65809,,1
+ F,0,66124,,0
+ F,0,188406,,1
+ F,0,188722,,0
+ F,0,189037,,1
+ F,0,189353,,0
+ F,0,189669,,1
+ F,0,189984,,0
+ F,0,190300,,1
+ F,0,190616,,0
+ F,0,190931,,1
+ F,0,191247,,0
+ F,0,191562,,1
+ F,0,191878,,0
+ F,0,192194,,1
+ F,0,192509,,0
+ F,0,192825,,1
+ F,0,193141,,0
+ F,0,193456,,1
+ F,0,193772,,0
+ F,0,194087,,1
+ F,0,194403,,0
+ F,0,194719,,1
+ F,0,195034,,0
+ F,0,195350,,1
+ F,0,195666,,0
+ F,0,195981,,1
+ F,0,196297,,0
+ F,0,196612,,1
+ F,0,196928,,0
+ F,0,197244,,1
+ F,0,197559,,0
+ F,0,197954,,1
+ F,0,200400,,0
+Sprite,Background,TopLeft,"Storyboard\Konbini-2.jpg",0,0
+ F,0,470,,1
+ F,0,628,,0
+ F,0,786,,1
+ F,0,1102,,0
+ F,0,2051,,1
+ F,0,2367,,0
+ F,0,3158,,1
+ F,0,3316,,0
+ F,0,3474,,1
+ F,0,3632,,0
+ F,0,3791,,1
+ F,0,3949,,0
+ F,0,4898,,1
+ F,0,5214,,0
+ F,0,5840,,1
+ F,0,6156,,0
+ F,0,7103,,1
+ F,0,7419,,0
+ F,0,8365,,1
+ F,0,8681,,0
+ F,0,9628,,1
+ F,0,9944,,0
+ F,0,10890,,1
+ F,0,11206,,0
+ F,0,12153,,1
+ F,0,12469,,0
+ F,0,13415,,1
+ F,0,13731,,0
+ F,0,14678,,1
+ F,0,14994,,0
+ F,0,58550,,1
+ F,0,58865,,0
+ F,0,59812,,1
+ F,0,60128,,0
+ F,0,61075,,1
+ F,0,61390,,0
+ F,0,62337,,1
+ F,0,62653,,0
+ F,0,63599,,1
+ F,0,63915,,0
+ F,0,64862,,1
+ F,0,65178,,0
+ F,0,188722,,1
+ F,0,189037,,0
+ F,0,189984,,1
+ F,0,190300,,0
+ F,0,191247,,1
+ F,0,191562,,0
+ F,0,192509,,1
+ F,0,192825,,0
+ F,0,193772,,1
+ F,0,194087,,0
+ F,0,195034,,1
+ F,0,195350,,0
+ F,0,196297,,1
+ F,0,196612,,0
+Sprite,Background,TopLeft,"Storyboard\Konbini-3.jpg",0,0
+ F,0,628,,1
+ F,0,786,,0
+ F,0,1735,,1
+ F,0,2051,,0
+ F,0,3632,,1
+ F,0,3791,,0
+ F,0,3949,,1
+ F,0,4107,,0
+ F,0,4581,,1
+ F,0,4898,,0
+ F,0,6472,,1
+ F,0,6787,,0
+ F,0,7734,,1
+ F,0,8050,,0
+ F,0,8997,,1
+ F,0,9312,,0
+ F,0,10259,,1
+ F,0,10575,,0
+ F,0,11522,,1
+ F,0,11837,,0
+ F,0,12784,,1
+ F,0,13100,,0
+ F,0,14047,,1
+ F,0,14362,,0
+ F,0,15309,,1
+ F,0,15625,,0
+ F,0,59181,,1
+ F,0,59496,,0
+ F,0,60443,,1
+ F,0,60759,,0
+ F,0,61706,,1
+ F,0,62021,,0
+ F,0,62968,,1
+ F,0,63284,,0
+ F,0,64231,,1
+ F,0,64546,,0
+ F,0,65493,,1
+ F,0,65809,,0
+ F,0,189353,,1
+ F,0,189669,,0
+ F,0,190616,,1
+ F,0,190931,,0
+ F,0,191878,,1
+ F,0,192194,,0
+ F,0,193141,,1
+ F,0,193456,,0
+ F,0,194403,,1
+ F,0,194719,,0
+ F,0,195666,,1
+ F,0,195981,,0
+ F,0,196928,,1
+ F,0,197244,,0
+Sprite,Background,TopLeft,"Storyboard\Konbini-4.jpg",0,0
+ F,0,1260,,1
+ F,0,1418,,0
+ F,0,1577,,1
+ F,0,1735,,0
+ F,0,2525,,1
+ F,0,2684,,0
+ F,0,2842,,1
+ F,0,3000,,0
+ F,0,4107,,1
+ F,0,4265,,0
+ F,0,4423,,1
+ F,0,4581,,0
+Sprite,Background,TopLeft,"Storyboard\Konbini-5.jpg",0,0
+ F,0,1102,,1
+ F,0,1260,,0
+ F,0,1418,,1
+ F,0,1577,,0
+ F,0,2367,,1
+ F,0,2525,,0
+ F,0,2684,,1
+ F,0,2842,,0
+ F,0,3000,,1
+ F,0,3158,,0
+ F,0,3316,,1
+ F,0,3474,,0
+ F,0,4265,,1
+ F,0,4423,,0
+Sprite,Background,TopLeft,"Storyboard\Konbini-6.jpg",0,0
+ F,0,5214,,1
+ F,0,5525,,0
+ F,0,197559,,1
+ F,0,197954,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-1.jpg",0,0
+ F,0,15625,,1
+ F,0,18150,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-2.jpg",0,0
+ F,0,18150,,1
+ F,0,21937,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-3.jpg",0,0
+ F,0,21937,,1
+ F,0,25725,,0
+ F,0,98949,,1
+ F,0,101474,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-4.jpg",0,0
+ F,0,25725,,1
+ F,0,26356,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-5.jpg",0,0
+ F,0,26356,,1
+ F,0,26987,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-6.jpg",0,0
+ F,0,26987,,1
+ F,0,28250,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-7.jpg",0,0
+ F,0,28250,,1
+ F,0,28881,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-8.jpg",0,0
+ F,0,28881,,1
+ F,0,29512,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-9.jpg",0,0
+ F,0,29512,,1
+ F,0,30775,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-10.jpg",0,0
+ F,0,30775,,1
+ F,0,32037,,0
+Sprite,Background,TopLeft,"Storyboard\Escape-11.jpg",0,0
+ F,0,32037,,1
+ F,0,35825,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-1.jpg",0,0
+ F,0,35825,,1
+ F,0,37245,,0
+ F,0,86324,,1
+ F,0,87745,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-2.jpg",0,0
+ F,0,37245,,1
+ F,0,38350,,0
+ F,0,39770,,1
+ F,0,40875,,0
+ F,0,42295,,1
+ F,0,43400,,0
+ F,0,87745,,1
+ F,0,88849,,0
+ F,0,90270,,1
+ F,0,91374,,0
+ F,0,92795,,1
+ F,0,94057,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-3.jpg",0,0
+ F,0,38350,,1
+ F,0,39770,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-4.jpg",0,0
+ F,0,40875,,1
+ F,0,42295,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-5.jpg",0,0
+ F,0,43400,,1
+ F,0,45925,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-6.jpg",0,0
+ F,0,88849,,1
+ F,0,90270,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-7.jpg",0,0
+ F,0,91374,,1
+ F,0,92795,,0
+Sprite,Background,TopLeft,"Storyboard\Chorus-8.jpg",0,0
+ F,0,94057,,1
+ F,0,96424,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-1.jpg",0,0
+ F,0,45925,,1
+ F,0,48450,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-2.jpg",0,0
+ F,0,48450,,1
+ F,0,50975,,0
+ F,0,53500,,1
+ F,0,54920,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-3.jpg",0,0
+ F,0,50975,,1
+ F,0,53500,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-4.jpg",0,0
+ F,0,54920,,1
+ F,0,57287,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-5.jpg",0,0
+ F,0,57287,,1
+ F,0,58550,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-6.jpg",0,0
+ F,0,66124,,1
+ F,0,68649,,0
+Sprite,Background,TopLeft,"Storyboard\Punks-7.jpg",0,0
+ F,0,68649,,1
+ F,0,76224,,0
+Sprite,Background,TopLeft,"Storyboard\Gay-1.jpg",0,0
+ F,0,76224,,1
+ F,0,77487,,0
+Sprite,Background,TopLeft,"Storyboard\Gay-2.jpg",0,0
+ F,0,77487,,1
+ F,0,80012,,0
+Sprite,Background,TopLeft,"Storyboard\Gay-3.jpg",0,0
+ F,0,80012,,1
+ F,0,86324,,0
+Sprite,Background,TopLeft,"Storyboard\Shopping-1.jpg",0,0
+ F,0,96424,,1
+ F,0,98949,,0
+Sprite,Background,TopLeft,"Storyboard\Shopping-2.jpg",0,0
+ F,0,101474,,1
+ F,0,102895,,0
+ F,0,109049,,1
+ F,0,110381,,0
+Sprite,Background,TopLeft,"Storyboard\Shopping-3.jpg",0,0
+ F,0,102895,,1
+ F,0,104315,,0
+Sprite,Background,TopLeft,"Storyboard\Shopping-4.jpg",0,0
+ F,0,104315,,1
+ F,0,105420,,0
+Sprite,Background,TopLeft,"Storyboard\Shopping-5.jpg",0,0
+ F,0,105420,,1
+ F,0,109049,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-1.jpg",0,0
+ F,0,110381,,1
+ F,0,111713,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-2.jpg",0,0
+ F,0,111713,,1
+ F,0,113046,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-3.jpg",0,0
+ F,0,113046,,1
+ F,0,115544,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-4.jpg",0,0
+ F,0,115544,,1
+ F,0,119707,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-5.jpg",0,0
+ F,0,119707,,1
+ F,0,122372,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-6.jpg",0,0
+ F,0,122372,,1
+ F,0,125037,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-7.jpg",0,0
+ F,0,125037,,1
+ F,0,126369,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-8.jpg",0,0
+ F,0,126369,,1
+ F,0,127702,,0
+Sprite,Background,TopLeft,"Storyboard\Receipt-9.jpg",0,0
+ F,0,127702,,1
+ F,0,130332,,0
+Sprite,Background,TopLeft,"Storyboard\Eto-1.jpg",0,0
+ F,0,130489,,1
+ F,0,130647,,0
+ F,0,133330,,1
+ F,0,133488,,0
+ F,0,133961,,1
+ F,0,134119,,0
+ F,0,135855,,1
+ F,0,136013,,0
+ F,0,136486,,1
+ F,0,136644,,0
+ F,0,138380,,1
+ F,0,138538,,0
+ F,0,139011,,1
+ F,0,139169,,0
+ F,0,141221,,1
+ F,0,141378,,0
+ F,0,143745,,1
+ F,0,143903,,0
+ F,0,146270,,1
+ F,0,146428,,0
+ F,0,148953,,1
+ F,0,149111,,0
+ F,0,151478,,1
+ F,0,151636,,0
+ F,0,153372,,1
+ F,0,153530,,0
+ F,0,154003,,1
+ F,0,154161,,0
+ F,0,155739,,1
+ F,0,155897,,0
+ F,0,158264,,1
+ F,0,158422,,0
+ F,0,161105,,1
+ F,0,161263,,0
+ F,0,161736,,1
+ F,0,161894,,0
+ F,0,163472,,1
+ F,0,163630,,0
+ F,0,164103,,1
+ F,0,164261,,0
+ F,0,166155,,1
+ F,0,166313,,0
+ F,0,168838,,1
+ F,0,168995,,0
+ F,0,169469,,1
+ F,0,169627,,0
+Sprite,Background,TopLeft,"Storyboard\Eto-2.jpg",0,0
+ F,0,130647,,1
+ F,0,130805,,0
+ F,0,130963,,1
+ F,0,131121,,0
+ F,0,133014,,1
+ F,0,133330,,0
+ F,0,133488,,1
+ F,0,133961,,0
+ F,0,135539,,1
+ F,0,135855,,0
+ F,0,136013,,1
+ F,0,136486,,0
+ F,0,140747,,1
+ F,0,140905,,0
+ F,0,141063,,1
+ F,0,141221,,0
+ F,0,141536,,1
+ F,0,141694,,0
+ F,0,143272,,1
+ F,0,143430,,0
+ F,0,143588,,1
+ F,0,143745,,0
+ F,0,144061,,1
+ F,0,144219,,0
+ F,0,145797,,1
+ F,0,145955,,0
+ F,0,146113,,1
+ F,0,146270,,0
+ F,0,146586,,1
+ F,0,146744,,0
+ F,0,148322,,1
+ F,0,148638,,0
+ F,0,149111,,1
+ F,0,149269,,0
+ F,0,150847,,1
+ F,0,151163,,0
+ F,0,151636,,1
+ F,0,151794,,0
+ F,0,153530,,1
+ F,0,153688,,0
+ F,0,155581,,1
+ F,0,155739,,0
+ F,0,155897,,1
+ F,0,156213,,0
+ F,0,156528,,1
+ F,0,156844,,0
+ F,0,158106,,1
+ F,0,158264,,0
+ F,0,158422,,1
+ F,0,158738,,0
+ F,0,159053,,1
+ F,0,159369,,0
+ F,0,160947,,1
+ F,0,161105,,0
+ F,0,161578,,1
+ F,0,161736,,0
+ F,0,163314,,1
+ F,0,163472,,0
+ F,0,163788,,1
+ F,0,163893,,0
+ F,0,163998,,1
+ F,0,164103,,0
+ F,0,165997,,1
+ F,0,166155,,0
+ F,0,166628,,1
+ F,0,166786,,0
+ F,0,168522,,1
+ F,0,168680,,0
+ F,0,169153,,1
+ F,0,169311,,0
+Sprite,Background,TopLeft,"Storyboard\Eto-3.jpg",0,0
+ F,0,131121,,1
+ F,0,131278,,0
+ F,0,138064,,1
+ F,0,138380,,0
+ F,0,138538,,1
+ F,0,139011,,0
+ F,0,140589,,1
+ F,0,140747,,0
+ F,0,140905,,1
+ F,0,141063,,0
+ F,0,141378,,1
+ F,0,141536,,0
+ F,0,143114,,1
+ F,0,143272,,0
+ F,0,143430,,1
+ F,0,143588,,0
+ F,0,143903,,1
+ F,0,144061,,0
+ F,0,145639,,1
+ F,0,145797,,0
+ F,0,145955,,1
+ F,0,146113,,0
+ F,0,146428,,1
+ F,0,146586,,0
+ F,0,148164,,1
+ F,0,148322,,0
+ F,0,148638,,1
+ F,0,148953,,0
+ F,0,150689,,1
+ F,0,150847,,0
+ F,0,151163,,1
+ F,0,151478,,0
+ F,0,153056,,1
+ F,0,153372,,0
+ F,0,153688,,1
+ F,0,154003,,0
+ F,0,154161,,1
+ F,0,154319,,0
+ F,0,156213,,1
+ F,0,156528,,0
+ F,0,158738,,1
+ F,0,159053,,0
+ F,0,160789,,1
+ F,0,160947,,0
+ F,0,161420,,1
+ F,0,161578,,0
+ F,0,163156,,1
+ F,0,163314,,0
+ F,0,163630,,1
+ F,0,163788,,0
+ F,0,163893,,1
+ F,0,163998,,0
+ F,0,164261,,1
+ F,0,164419,,0
+ F,0,165839,,1
+ F,0,165997,,0
+ F,0,166313,,1
+ F,0,166628,,0
+ F,0,168364,,1
+ F,0,168522,,0
+ F,0,168680,,1
+ F,0,168838,,0
+ F,0,168995,,1
+ F,0,169153,,0
+ F,0,169627,,1
+ F,0,169784,,0
+Sprite,Background,TopLeft,"Storyboard\Eto-4.jpg",0,0
+ F,0,130332,,1
+ F,0,130489,,0
+ F,0,130805,,1
+ F,0,130963,,0
+ F,0,131278,,1
+ F,0,133014,,0
+ F,0,134119,,1
+ F,0,135539,,0
+ F,0,136644,,1
+ F,0,138064,,0
+ F,0,139169,,1
+ F,0,140589,,0
+ F,0,141694,,1
+ F,0,143114,,0
+ F,0,144219,,1
+ F,0,145639,,0
+ F,0,146744,,1
+ F,0,148164,,0
+ F,0,149269,,1
+ F,0,150689,,0
+ F,0,151794,,1
+ F,0,153056,,0
+ F,0,154319,,1
+ F,0,155581,,0
+ F,0,156844,,1
+ F,0,158106,,0
+ F,0,159369,,1
+ F,0,160789,,0
+ F,0,161263,,1
+ F,0,161420,,0
+ F,0,161894,,1
+ F,0,163156,,0
+ F,0,164419,,1
+ F,0,165839,,0
+ F,0,166786,,1
+ F,0,168364,,0
+ F,0,169311,,1
+ F,0,169469,,0
+ F,0,169784,,1
+ F,0,171994,,0
+Sprite,Background,TopLeft,"Storyboard\Epilogue-2.jpg",0,0
+ F,0,173256,,1
+ F,0,177044,,0
+Sprite,Background,TopLeft,"Storyboard\Epilogue-1.jpg",0,0
+ F,0,171994,,1
+ F,0,173256,175781,1,0
+Sprite,Background,TopLeft,"Storyboard\Epilogue-3.jpg",0,0
+ F,0,177044,,1
+ F,0,180831,,0
+Sprite,Background,TopLeft,"Storyboard\Epilogue-4.jpg",0,0
+ F,0,180831,,1
+ F,0,185881,,0
+Sprite,Background,TopLeft,"Storyboard\Epilogue-5.jpg",0,0
+ F,0,185881,,1
+ F,0,188406,,0
+Sprite,Background,TopLeft,"Storyboard\Thanks.jpg",0,0
+ F,0,197954,199769,0,1
+ F,0,201662,,0
+Sprite,Background,TopLeft,"Storyboard\Thanks2.jpg",0,0
+ F,0,201347,201662,0,1
+ F,0,210000,,0
+Sprite,Background,Centre,"Storyboard\Thanks-Ticker.png",320,240
+ F,0,201031,201978,0,1
+ F,0,210000,,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,BottomRight,"Storyboard\Ticker.png",0,480
+ MX,1,5525,6787,0,240
+ MX,1,9312,10575,240,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle01.png",20,400
+ F,0,15625,15940,0,1
+ F,0,17992,18150,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle02.png",20,400
+ F,0,18150,18308,0,1
+ F,0,20675,21779,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle03.png",20,400
+ F,0,21779,21937,0,1
+ F,0,23200,25093,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle04.png",20,400
+ F,0,25725,25883,0,1
+ F,0,28092,28250,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle05.png",20,400
+ F,0,28250,28407,0,1
+ F,0,30617,30775,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle06.png",20,400
+ F,0,30775,30932,0,1
+ F,0,33300,34562,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle07.png",20,400
+ F,0,35825,35982,0,1
+ F,0,36772,37718,1,0
+ F,0,86324,86482,0,1
+ F,0,87271,88218,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle08.png",620,430
+ F,0,37087,37245,0,1
+ F,0,38350,39454,1,0
+ F,0,39612,39770,0,1
+ F,0,40875,41979,1,0
+ F,0,42137,42295,0,1
+ F,0,43400,44662,1,0
+ F,0,44662,44820,0,1
+ F,0,45925,47029,1,0
+ F,0,87587,87745,0,1
+ F,0,88849,89954,1,0
+ F,0,90112,90270,0,1
+ F,0,91374,92479,1,0
+ F,0,92637,92795,0,1
+ F,0,93899,95004,1,0
+ F,0,95162,95320,0,1
+ F,0,96424,97529,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle09.png",20,400
+ F,0,38192,38350,0,1
+ F,0,39454,40243,1,0
+ F,0,88692,88849,0,1
+ F,0,89954,90743,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle10.png",20,400
+ F,0,40717,40875,0,1
+ F,0,41979,42768,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle11.png",20,400
+ F,0,43400,43557,0,1
+ F,0,45136,45767,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle12.png",20,400
+ F,0,45767,45925,0,1
+ F,0,47029,47345,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle13.png",620,430
+ F,0,47187,47345,0,1
+ F,0,48450,49554,1,0
+ F,0,49712,49870,0,1
+ F,0,50975,52079,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle14.png",20,400
+ F,0,48292,48450,0,1
+ F,0,49554,49870,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle15.png",20,400
+ F,0,50975,51135,0,1
+ F,0,52079,52395,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle16.png",620,430
+ F,0,52237,52395,0,1
+ F,0,53500,54604,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle17.png",20,400
+ F,0,53500,53657,0,1
+ F,0,54604,54920,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle18.png",620,430
+ F,0,54762,54920,0,1
+ F,0,56025,57287,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle19.png",20,400
+ F,0,65967,66440,0,1
+ F,0,68492,68649,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle20.png",20,400
+ F,0,68649,68807,0,1
+ F,0,73699,75593,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle21.png",20,400
+ F,0,76224,76382,0,1
+ F,0,81117,81274,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle22.png",20,400
+ F,0,81274,81432,0,1
+ F,0,85693,86167,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle23.png",20,400
+ F,0,91217,91374,0,1
+ F,0,92321,93268,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle24.png",20,400
+ F,0,94057,94215,0,1
+ F,0,95793,96109,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle25.png",20,400
+ F,0,96267,96424,0,1
+ F,0,97687,98634,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle26.png",620,430
+ F,0,97687,97845,0,1
+ F,0,98949,100054,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle27.png",20,400
+ F,0,98792,98949,0,1
+ F,0,99896,101159,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle28.png",620,430
+ F,0,100212,100370,0,1
+ F,0,101474,102579,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle29.png",20,400
+ F,0,101316,101474,0,1
+ F,0,102579,103999,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle30.png",620,430
+ F,0,102737,102895,0,1
+ F,0,103999,105104,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle31.png",20,400
+ F,0,104157,104315,0,1
+ F,0,105262,106524,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle32.png",620,430
+ F,0,105262,105420,0,1
+ F,0,106524,108418,1,0
+ F,0,151794,151952,0,1
+ F,0,153056,154003,1,0
+ F,0,161894,162052,0,1
+ F,0,163156,164261,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle33.png",20,400
+ F,0,109049,109215,0,1
+ F,0,111047,111380,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle34.png",20,400
+ F,0,111547,111713,0,1
+ F,0,113712,114045,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle35.png",20,400
+ F,0,114378,114545,0,1
+ F,0,118209,119374,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle36.png",20,400
+ F,0,119707,119874,0,1
+ F,0,122039,122206,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle37.png",20,400
+ F,0,122372,122539,0,1
+ F,0,124371,124704,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle38.png",20,400
+ F,0,124870,125037,0,1
+ F,0,127036,127369,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle39.png",20,400
+ F,0,127535,127702,0,1
+ F,0,128868,130033,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle40.png",20,400
+ F,0,130332,130489,0,1
+ F,0,131436,132225,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle41.png",620,430
+ F,0,131594,131752,0,1
+ F,0,132856,133961,1,0
+ F,0,134119,134277,0,1
+ F,0,135381,136486,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle42.png",20,400
+ F,0,132856,133014,0,1
+ F,0,133961,134750,1,0
+ F,0,135381,135539,0,1
+ F,0,136486,137275,1,0
+ F,0,137906,138064,0,1
+ F,0,139011,139800,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle43.png",620,430
+ F,0,136644,136802,0,1
+ F,0,137906,139011,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle44.png",620,430
+ F,0,139169,139327,0,1
+ F,0,140431,141536,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle45.png",20,400
+ F,0,140431,140589,0,1
+ F,0,141536,142325,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle46.png",620,430
+ F,0,141694,141852,0,1
+ F,0,142956,144061,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle49.png",20,400
+ F,0,142956,143114,0,1
+ F,0,144061,144850,1,0
+ F,0,145481,145639,0,1
+ F,0,146586,147375,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle47.png",620,430
+ F,0,144219,144377,0,1
+ F,0,145481,146586,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle48.png",620,430
+ F,0,146744,146902,0,1
+ F,0,148006,149111,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle50.png",20,400
+ F,0,148006,148164,0,1
+ F,0,149111,149900,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle51.png",620,430
+ F,0,149269,149427,0,1
+ F,0,150531,151636,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle52.png",20,400
+ F,0,150531,150689,0,1
+ F,0,151636,152425,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle53.png",20,400
+ F,0,152899,153056,0,1
+ F,0,154161,154950,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle54.png",620,430
+ F,0,154161,154319,0,1
+ F,0,155581,156528,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle55.png",20,400
+ F,0,155424,155581,0,1
+ F,0,156686,157475,1,0
+ F,0,157949,158106,0,1
+ F,0,159211,160000,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle56.png",620,430
+ F,0,156686,156844,0,1
+ F,0,158106,159053,1,0
+ F,0,159211,159369,0,1
+ F,0,160631,161736,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle57.png",20,400
+ F,0,160631,160789,0,1
+ F,0,161736,162525,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle58.png",20,400
+ F,0,162999,163156,0,1
+ F,0,164261,165050,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle59.png",620,430
+ F,0,164419,164577,0,1
+ F,0,165681,166786,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle60.png",20,400
+ F,0,165681,165839,0,1
+ F,0,166786,167575,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle61.png",620,430
+ F,0,166944,167102,0,1
+ F,0,168206,169469,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle62.png",20,400
+ F,0,168206,168364,0,1
+ F,0,169627,170731,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle63.png",620,430
+ F,0,169942,170100,0,1
+ F,0,170731,171836,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle64.png",20,400
+ F,0,171994,172152,0,1
+ F,0,173256,173888,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle65.png",20,400
+ F,0,174045,174203,0,1
+ F,0,175781,176413,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle66.png",20,400
+ F,0,176728,177044,0,1
+ F,0,180358,180673,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle67.png",20,400
+ F,0,180831,180989,0,1
+ F,0,182567,183198,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle68.png",20,400
+ F,0,183356,183514,0,1
+ F,0,185723,185881,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle69.png",20,400
+ F,0,185881,186039,0,1
+ F,0,188406,189984,1,0
+Sprite,Foreground,CentreRight,"Storyboard\Subtitles\Subtitle70.png",620,430
+ F,0,188406,188564,0,1
+ F,0,190931,192825,1,0
+ F,0,193456,193614,0,1
+ F,0,195981,197244,1,0
+Sprite,Foreground,CentreLeft,"Storyboard\Subtitles\Subtitle71.png",20,400
+ F,0,190931,191089,0,1
+ F,0,193456,195034,1,0
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
